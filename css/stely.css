@@ -1,0 +1,573 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    min-width: 320px;
+}
+/* header start */
+/* *************** */
+header{
+    background: linear-gradient(180deg, #1e2242dc 27.07%, rgb(30, 34, 66) 100%)
+}
+.header__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41px;
+    padding-top: 26px;
+    margin-left: 38px;
+}
+.header__but a{
+    text-decoration: none;
+    color: #fff;
+}
+.header__name p{
+    color: #fff;
+}
+.pRock{
+    color: #18BAFF;
+}
+.header__but button{
+    padding: 13px 22px;
+    border: 1px solid #564FFF;
+    font-size: 14px;
+    border-radius: 5px;
+    background: rgba(86, 79, 255, 0.15);
+    color: #fff;
+    transition: 0.5s;
+}
+.header__but button:hover{
+    background: #564FFF;
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    color: #fff;
+}
+.header__logo h1{
+    color: #fff;
+}
+.header__logo p{
+    color: #A7A7C8;
+}
+.header__log{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__log h3{
+color: #fff;
+}
+.header__log-right p{
+    color:#18BAFF ;
+    width: 121px;
+}
+.header__log-left p{
+    color:#18BAFF ;
+    width: 184px;
+}
+.header__automation h2{
+    color: #fff;
+    text-align: center;
+    margin-bottom: 54px;
+}
+.header__automation-text{
+    color: #fff;
+    background: linear-gradient(180deg, #1E2242 27.07%, rgba(30, 34, 66, 0) 100%);
+    position: relative;
+}
+.header__automation h3{
+    padding-left: 34px;
+    margin-top: 21px;
+    padding-bottom: 11px;
+    padding-top: 21px;
+}
+.header__automation img{
+    padding-left: 34px;
+    position: absolute;
+    bottom: 196px;
+}
+.header__automation p{
+    padding-left: 34px;
+    padding-bottom: 54px;
+}
+/* header end */
+/* ************* */
+/* main start */
+/* *************** */
+main{
+    background: linear-gradient(180deg, #0E112D 50%, rgba(14, 17, 45, 0.87) 100%);
+}
+.andro{
+    display: flex;
+    justify-content: space-between;  
+}
+.android h2{
+    color: #fff;
+    text-align: center;
+    padding-top: 60px;
+    margin-bottom: 62px;
+    font-size: 36px;
+    position: relative;
+}
+.android__text{
+    color: #A7A7C8;
+    margin-left: 152px;
+}
+.android__text h3{
+    font-size: 32px;
+    color: #fff;
+    margin-bottom: 11px;
+}
+.android__text h4{
+    font-size: 18px;
+    margin-top: 21px;
+    margin-bottom: 11px;
+    color: #fff;
+}
+.android__text p{
+    color: #A7A7C8;
+    font-size: 16px;
+    width: 556px;
+}
+.android__text button{
+    font-size: 14px;
+    padding: 19px 65px;
+    background: #564fff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.android__text span{
+    color: #564FFF;
+    font-size: 16px;
+}
+.android__but{
+    display: flex;
+}
+.android__but .but{
+    margin-left: 24px;
+    width: 299px;
+}
+section{
+background: linear-gradient(180deg, #0E112D 50%, rgba(14, 17, 45, 0.959) 100%);
+padding-top: 123px;
+/* margin-bottom: 83px; */
+} 
+.ios{
+    display: flex;}
+.ios__text{
+    color: #A7A7C8;
+    margin-right: 124px;
+    
+}
+.ios h3,h4{
+    color: #fff;
+}
+
+.ios .bat{
+    width: 510px;
+}
+.ios__text button{
+    font-size: 14px;
+    padding: 19px 65px;
+    background: #564fff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+.ios__text span{
+    color: #564FFF;
+    font-size: 16px;
+}
+/* .ios__tex{
+
+} */
+.ios__but{
+    display: flex;
+}
+.ios__but .but{
+    margin-left: 24px;
+    width: 299px;
+}
+.redrock h2{
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    margin-top: 84px;
+    margin-bottom: 40px;
+}
+.redrock__but{
+    text-align: center;
+    
+}
+.redrock__but button{
+    color: #fff;
+    font-size: 14px;
+    background: rgba(86, 79, 255, 0.25);
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 19px 57px;
+    transition: 0.5s;
+}
+.redrock__but button:hover{
+    background: #564FFF;
+    border-radius: 5px;
+}
+.redrock__but-left{
+    color: #fff;
+    font-size: 14px;
+    background: rgba(86, 79, 255, 0.25);
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 19px 73px;
+    transition: 0.5s;
+    margin-left: 18px;
+}
+.redrock__but-left:hover{
+    color: #fff;
+    font-size: 14px;
+    background: rgba(86, 79, 255, 0.25);
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 19px 57px;
+    transition: 0.5s;
+}
+.row{
+    margin-top: 40px;
+}
+.default{
+    text-align: center;
+    /* margin-left: 200px; */
+    margin-bottom: 16px;
+    
+}
+.default h3{
+    font-size: 30px;
+    color: #fff;
+    padding-top: 23px;
+    
+}
+.default__text{
+    text-align: center;
+    color: #A7A7C8;
+    background: linear-gradient(180deg, #1E2242 0%, rgba(30, 34, 66, 0) 100%);
+    border-radius: 5px;
+    margin-top: 17px;
+}
+.default__tet{
+    color: #fff;
+    font-size: 16px;
+}
+.default__text ul{
+    font-size: 16px;
+}
+.default__button {
+    margin-top: 31px;
+}
+.default__but h4{
+    color: #fff;
+    margin-top: 65px;
+    font-size: 36px;
+}
+.default__button button{
+    color: #fff;
+    background: #0d6efd;
+    padding-top: 27px;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-bottom: 28px;
+    background: linear-gradient(106.14deg, #18BAFF 20.27%, #564FFF 78.28%);
+    border-radius: 5px;
+    border: none;
+    list-style: none;
+    text-decoration: none;
+}
+.normal{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.normal h3{
+    font-size: 30px;
+    color: #FFB800;
+    padding-top: 23px;  
+}
+.normal__text{
+    text-align: center;
+    color: #A7A7C8;
+    background: linear-gradient(180deg, #1E2242 0%, rgba(30, 34, 66, 0) 100%);
+    border-radius: 5px;
+    margin-top: 17px;
+}
+.normal__tet{
+    color: #FFB800;
+    font-size: 16px;
+}
+.normal__but h4{
+    color: #fff;
+    margin-top: 24px;
+    font-size: 36px;
+}
+.normal__but p{
+    color: #FFB800;
+    margin-top: 10px;
+    font-size: 17px;
+}
+.ultra{
+    text-align: center;
+    margin-bottom: 16px;
+}
+.ultra h3{
+    font-size: 30px;
+    color:  #FF2525 ;
+    padding-top: 23px;  
+}
+.ultra__tet{
+    color: #FF2525 ;
+    font-size: 16px;
+}
+.ultra__but h4{
+    color: #fff;
+    margin-top: 16px;
+    font-size: 36px;
+}
+.ultra__but p{
+    color: #FF2525;
+    
+    font-size: 17px;
+}
+.ultra__text{
+    text-align: center;
+    color: #A7A7C8;
+    background: linear-gradient(180deg, #1E2242 0%, rgba(30, 34, 66, 0) 100%);
+    border-radius: 5px;
+    margin-top: 17px;
+}
+.ultra__text img {
+    padding-left: 140px;
+    position: absolute;
+    top: 2705px;
+}
+.questions h2{
+font-size: 36px;
+color: #FFFFFF;
+margin-top: 103px;
+text-align: center;
+margin-bottom: 43px;
+}
+.collapse{
+    background: #1E2242;
+    color: #FFFFFF;
+}
+/* .collapse:hover{
+    background: #1E2242;
+    color: #FFFFFF;
+} */
+.questions button{
+    border-radius: 5px;
+    background: #1E2242;
+    color: #fff;
+    border: none;
+    /* margin-bottom: 16px; */
+    transition: 0.1s;
+}
+.questions__tab{
+    background: #1E2242;
+}
+.questions button:hover{
+    border-radius: 5px;
+    background: #1E2242;
+    color: #fff;
+    border: none;
+}
+/* .questions button::after{
+    
+} */
+.footer{
+    background: rgba(14, 17, 45, 0.945);
+    text-align: center;
+    padding-top: 83px;
+}
+.footer button{
+    background: #564FFF;
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 13px 22px;
+    color: #fff;
+}
+.footer__img{
+    margin-top: 37px;
+}
+.footer__img img{
+    padding-left: 33px;
+}
+.footer__text p{
+    text-align: center;
+    font-size: 14px;
+    color: #676B8B;
+    margin-top: 22px;
+    width: 342px;
+    margin-left: 410px;
+    padding-bottom: 54px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* email start */
+/* **************** */
+.block{
+    position: relative;
+    right: 282px;
+}
+.email{
+    border-radius: 5px;
+    text-align: center;
+    /* margin-top: 165px; */
+    width: 827px;
+    margin-left: 345px;
+    background: linear-gradient(180deg, #1E2242 0%, rgba(30, 34, 66, 0) 100%);
+}
+.email h1{
+    color: #fff;
+    font-size: 36px;
+    margin-bottom: 40px;
+    /* margin-top: 64px; */
+}
+.email__login{
+    display: flex;
+    flex-direction: column;
+}
+.email__bat a{
+    color: #fff;
+    text-decoration: none;
+}
+.email input{
+    /* margin-left: 120px; */
+    width: 400px;
+    height: 45px;
+    background:linear-gradient(180deg, #39367e6b 0%, rgba(30, 34, 66, 0) 100%);
+    color: #fff;
+    border: 1px solid #564FFF;
+    border-radius: 3px;
+    font-size: 12px;
+}
+.email input:hover{
+    border: 1px solid #564FFF;
+}
+.login{
+    margin-bottom: 25px;
+    color: #fff;
+}
+.email__bat{
+    margin-top: 20px;
+    background: #564FFF;
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 13px 22px;
+    color: #fff;
+    width: 135px;
+}
+.email p{
+    margin-top: 25px;
+    color: #fff;
+    padding-bottom: 25px;
+}
+.email p span{
+color: #0d6efd;
+}
+.email h2{
+color: #fff;
+ padding-bottom: 31px;
+}
+.email h2 span{
+    color: #0d6efd;
+}
+.email__name {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 41px;
+    padding-top: 26px;
+    margin-left: 38px;
+}
+.email__but a{
+    text-decoration: none;
+    color: #fff;
+}
+.email__name p{
+    color: #fff;
+}
+.pRock{
+    color: #18BAFF;
+}
+.email__but button{
+    padding: 13px 22px;
+    border: 1px solid #564FFF;
+    font-size: 14px;
+    border-radius: 5px;
+    background: rgba(86, 79, 255, 0.15);
+    color: #fff;
+    transition: 0.5s;
+}
+.email__but button:hover{
+    background: #564FFF;
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+}
+
+
+
+
+
+.regist{
+    background: linear-gradient(180deg, #1e2242dc 27.07%, rgb(30, 34, 66) 100%);
+    text-align: center;
+    color: #fff;
+}
+.regist h1{
+    padding-top: 60px;
+}
+.regist input{
+    width: 400px;
+    height: 45px;
+    background:linear-gradient(180deg, #39367e6b 0%, rgba(30, 34, 66, 0) 100%);
+    color: #fff;
+    border: 1px solid #564FFF;
+    border-radius: 3px;
+    font-size: 12px;  
+    margin-top: 40px;
+}
+.regisr__but{
+    margin-top: 20px;
+    background: #564FFF;
+    border: 1px solid #564FFF;
+    border-radius: 5px;
+    padding: 13px 22px;
+    color: #fff;
+    width: 135px;
+}
+.regist p{
+    margin-top: 40px;
+    /* width: 700px; */
+    padding-bottom: 31px;
+}
+.regist p span{
+    color: #0d6efd;
+}
